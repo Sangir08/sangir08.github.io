@@ -1,0 +1,203 @@
+﻿body {
+  background: url(images/sait_fon.jpg) no-repeat;
+  min-height: 100%;
+  background-size: cover;
+}
+.menu {
+  width: 100%;
+  display: table;
+
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1600px;
+  width: 100%;
+  padding: 0 15px;
+}
+
+
+.menu ul {
+  display: table-row;
+  color: #ddd;
+}
+.menu li {
+  display: table-cell;
+  position: relative;
+  background: #DB7093;
+}
+.menu li a {
+  display: block;
+  padding: 15px 15px;
+  color: #E0FFFF;
+  text-align: center;
+}
+.menu-caret:after {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  margin-left: 0.255em;
+  vertical-align: 0.255em;
+  content: "";
+  border-top: 3px solid;
+  border-right: 3px solid transparent;
+  border-bottom: 0;
+  border-left: 3px solid transparent;
+}
+.menu ul li:hover,
+.menu a:hover {
+  background: #666;
+}
+.menu li:hover ul {
+  display: block;
+  position: absolute;
+  top: 100%;
+  left: 0px;
+  background: #666;
+  margin: 0;
+  padding: 10px 20px;
+  width: 150px;
+  z-index: 9999;
+}
+.menu ul ul {
+  display: none;
+}
+.menu ul ul li {
+  display: block;
+  background: #666;
+  padding: 5px 0;
+}
+.menu ul ul li a {
+  display: block;
+  padding: 0;
+  background: #666;
+  text-align: left;
+}
+
+.slider-wrapper{
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.wrapper {
+  margin-top: 3rem;
+
+  /* background-color: black; */
+  width: 100%;
+  margin: 0 auto;
+  /* padding: 0 10px; */
+  position: relative;
+}
+
+.slick-arrow {
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  z-index: 100;
+  width: 50%;
+  height: 100%;
+}
+
+.slick-prev {
+  left: 0;
+}
+
+.slick-next {
+  right: 0;
+}
+
+.single-item {
+  /*object-fit: cover;*/
+  max-height: 100vh;
+  overflow: hidden; 
+}
+
+
+.single-item img {
+  /*object-fit: cover;*/
+  height: 100%;
+  width: 100%;
+  object-position: center center;
+}
+
+.src{
+  margin-top: 18px;
+  margin-left: 18px;
+
+}
+
+s {
+    margin: 0;
+   }
+   .feedback {
+    border-radius: 0 10px 10px 0;
+    width: 300px;
+    background: #333; /* Цвет фона */
+    color: #fff; /* Цвет текста */
+    position: fixed; /* Фиксируем на одном месте  */
+    min-height: 100px; /* Минимальная высота */
+    top: 100px; left: -320px;
+    border-right: 20px solid #fc0; /* Оранжевая граница справа */
+    padding: 10px;
+    transition: left 3s; /* Анимация */
+   }
+   .feedback img {
+    float: left;
+    margin: 0 10px 0 0;
+   }
+   .feedback::after {
+    content: 'Обратная связь'; /* Выводим текст */
+    color: #000; /* Цвет надписи */
+    position: absolute; /* Абсолютное позиционирование */
+    right: -60px; bottom: 90px;
+    transform: rotate(-90deg); /* Поворачиваем текст */
+    -webkit-transform: rotate(-90deg);
+   }
+   .feedback:hover {
+    left: 0; /* При наведении сдвигаем вправо */
+   }
+
+.form{
+  background: url(images/sait_fon.jpg) no-repeat;
+}
+
+.text{
+  text-align: center;
+}
+
+.social-icons-5 {
+    list-style: none;
+    margin: 10px;
+    padding: 0;
+    display: flex;
+    justify-content: center;      
+}
+.social-icons-5 a {
+    text-decoration: none;
+    color: #fff;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin: 0 6px;
+    font-size: 26px;
+    background: #337AB7;
+    transition: border-top-left-radius 0.1s linear 0s, border-top-right-radius 0.1s linear 0.1s, border-bottom-right-radius 0.1s linear 0.2s, border-bottom-left-radius 0.1s linear 0.3s;
+    transition: transform 0.4s linear 0s, border-top-left-radius 0.1s linear 0s, border-top-right-radius 0.1s linear 0.1s, border-bottom-right-radius 0.1s linear 0.2s, border-bottom-left-radius 0.1s linear 0.3s;
+    transition: transform 0.4s linear 0s, border-top-left-radius 0.1s linear 0s, border-top-right-radius 0.1s linear 0.1s, border-bottom-right-radius 0.1s linear 0.2s, border-bottom-left-radius 0.1s linear 0.3s;
+}
+
+.social-icons-5 a i,
+
+.social-icons-5 a:hover {
+    transform: rotate(360deg);
+    border-radius: 50%;
+}
+.social-icons-5 a:hover i,
+
+.vkbut1{padding:5px; border-radius:4px; box-shadow: 2px 2px 4px -2px rgb(0, 0, 0, 0.5); background:#6383a8; width: 130px; display: inline-block; text-align: center;}
+.fbbut1{padding:5px; border-radius:4px; box-shadow: 2px 2px 4px -2px rgb(0, 0, 0, 0.5); background:#6383a8; width: 130px; display: inline-block; text-align: center;}
+.twbut1{padding:5px; border-radius:4px; box-shadow: 2px 2px 4px -2px rgb(0, 0, 0, 0.5); background:#6383a8; width: 130px; display: inline-block; text-align: center;}
+

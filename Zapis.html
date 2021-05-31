@@ -1,0 +1,92 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>Запись</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div>
+	<div class="menu">
+		<ul>
+			<li>
+				<a class="menu-caret" href="Glavnaya.html">Салон</a>
+				<ul>
+					<li><a href="Strijki.html">Стрижки</a></li>
+					<li><a href="Okrashivanie.html">Окрашивание</a></li>
+					<li><a href="ukladki.html">Укладки</a></li>
+					<li><a href="Manikur.html">Маникюр и педикюр</a></li>
+					<li><a href="Brovi.html">Брови и ресницы</a></li>
+				</ul>
+			</li>
+			<li><a href="Portfolio.html">Портфолио</a></li>
+			<li><a href="Mastera.html">Мастера</a></li>
+			<li><a href="Akcii.html">Акции</a></li>
+			<li><a href="Zapis.html">Запись</a></li>
+		</ul>
+	</div>
+	<s>
+  <div align="right" class="feedback">
+   <img src="images/primer/obr.jpg" alt="" width="165" height="150">
+   Если у вас возникли вопросы или проблемы по записи, звоните мне по телефону:
+   <a href="tel:555-3298" style="color: #FF8C00; text-decoration: none"><font size="3" face="MV BOLI">555-3298</font></a>. Звонок платный.
+  </div>
+</s>
+	<form>
+		<fieldset>
+			<legend><font color="white">Форма записи</font></legend>
+		<font color="white">Имя:</font> <input type = "text"  name = "firstname" value =  "Введите имя"> <br> <br>
+		<font color="white">Фамилия:</font> <input type = "text" name = "lastname" value =  "Введите фамилию"> <br> <br>
+		<font color="white">Выберете услугу(и):</font> <br>
+		<input type = "checkbox" name = "type1" value = "low"><font color="white">Детская стрижка</font><br>
+		<input type = "checkbox" name = "type2" value = "2old"><font color="white">Женская стрижка</font><br>
+		<input type = "checkbox" name = "type3" value = "high"><font color="white">Мужская стрижка</font><br>
+		<input type = "checkbox" name = "type4" value = "busy"><font color="white">Мелирование</font><br>
+		<input type = "checkbox" name = "type5" value = "cat"><font color="white">Осветление</font><br>
+		<input type = "checkbox" name = "type1" value = "low"><font color="white">Шатуш</font><br>
+		<input type = "checkbox" name = "type2" value = "2old"><font color="white">Дневная/Вечерняя</font><br>
+		<input type = "checkbox" name = "type3" value = "high"><font color="white">Прямая</font><br>
+		<input type = "checkbox" name = "type4" value = "busy"><font color="white">Свадебная</font><br>
+		<input type = "checkbox" name = "type5" value = "cat"><font color="white">Уход за ногтями рук</font><br>
+		<input type = "checkbox" name = "type2" value = "2old"><font color="white">Наращивание ногтей</font><br>
+		<input type = "checkbox" name = "type3" value = "high"><font color="white">Маникюр</font><br>
+		<input type = "checkbox" name = "type4" value = "busy"><font color="white">Шеллак</font><br>
+		<input type = "checkbox" name = "type5" value = "cat"><font color="white">Уход за ногтями ног</font><br>
+		<input type = "checkbox" name = "type1" value = "low"><font color="white">Педикюр</font><br>
+		<input type = "checkbox" name = "type2" value = "2old"><font color="white">Коррекция бровей</font><br>
+		<input type = "checkbox" name = "type3" value = "high"><font color="white">Окрашивание бровей</font><br>
+		<input type = "checkbox" name = "type4" value = "busy"><font color="white">Удаление бровей</font><br>
+		<input type = "checkbox" name = "type5" value = "cat"><font color="white">Наращивание ресниц</font><br>
+		<input type = "checkbox" name = "type4" value = "busy"><font color="white">Окрашивание ресниц</font><br>
+		<input type = "checkbox" name = "type5" value = "cat"><font color="white">Макияж</font><br>
+		<br>
+		<font color="white">Телефон:</font> <input type="tel" name="firstname" placeholder="Введите ваш телефон">	<font color="white">E-mail:</font> <input type="email" name="firstname" placeholder="Ваш E-mail">
+		<br>
+		<p>
+			<b><font color="white">Выберете дату и время:</font></b>
+		</p>
+		<font color="white">Дата:</font> <input type="date" name="delivery_date">
+		<font color="white">Время:</font> <input type="time" name="delivery_time">
+		<br>
+		<p>
+			<b><font color="white">Выберете оплату</font></b>
+		</p>
+		<label>
+			<input type="radio" name="choice" value="cash" checked>
+			<font color="white">Наличными</font>
+		</label>
+		<label>
+			<input type="radio" name="choice" value="card">
+			<font color="white">По карте</font>
+		</label>
+		<br><br>
+		<font color="white">Комментарий:</font>
+		<br>
+		<textarea name="comment" cols="70" rows="5"></textarea>
+		<br>
+		<input type = "submit" name = "submit" value = "Отправить">
+		<input type="reset" value="Очистить">
+		</fieldset>
+	</form>
+</div>
+</body>
+</html>
